@@ -1,0 +1,90 @@
+/* admission section */
+.desc {
+  padding: 200px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.admission-form {
+  background-color: bisque;
+}
+.form-header {
+  text-align: center;
+  margin: 20px 0 30px 0;
+}
+.name-section {
+  margin-bottom: 15px;
+}
+.date {
+  margin-top: 15px;
+}
+.submit-button {
+  margin-top: 15px;
+  width: 100%;
+}
+.add-btn {
+}
+.delete-course {
+  margin-left: 10px;
+}
+.delete-course button:hover {
+  background: red;
+  transition: 500ms;
+}
+
+/* Navbar section*/
+nav ul li {
+  margin: 0 20px 0 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+nav ul li .nav-link {
+  color: beige;
+}
+
+/* applicants sections */
+.search-applicants {
+  padding: 50px;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.applicant-container {
+  height: 500px;
+  /* padding: 10px; */
+  margin: 30px 0 30px 0;
+  border-radius: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: rgb(0, 0, 0);
+}
+.applicant-list {
+  margin: 5px;
+  padding: 8px;
+  line-height-step: 5px;
+  border: 1px solid rgb(10, 10, 10);
+  border-radius: 10px;
+}
+.profile {
+  margin-top: 70px;
+}
+/* search container */
+.search-container {
+  margin: 5px 0 5px 0;
+  padding-bottom: 5px;
+  border: 1px solid red;
+  border-radius: 10px;
+  /* background: rgba(91, 58, 58, 0.322); */
+  color: rgb(180, 49, 49);
+}
+.search-value {
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.submit-btn {
+}
